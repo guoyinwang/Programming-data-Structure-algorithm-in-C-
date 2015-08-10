@@ -1,0 +1,3 @@
+This file was only placed on branch "dist".
+Now that you have merged, you have a copy
+on master too.
