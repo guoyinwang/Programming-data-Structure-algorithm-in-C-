@@ -5,13 +5,10 @@ This branch is where you will turn in your assignments.
 There is nothing here right now because
 we distribute your assignments on branch "dist".
 
-First, make sure you are up to date
+First, make sure you are up to date, and merge
+in changes from dist
 
- git pull
-
-Next, merge in anything that was on dist:
-
- git merge dist
+ git pull origin dist
 
 
 Now, do work.  When you want to add a file
