@@ -1,0 +1,17 @@
+Grading p1 (worth 100 points)
+-------------------------------------------------
+The output you got does not match what was expected:
+==
+Yes, we did this!
+==
+The output you entered was:
+==
+we did it!
+==
+Edit it in emacs to fix it and resubmit!
+Percent this problem: 0 (= 0 / 100 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 0
