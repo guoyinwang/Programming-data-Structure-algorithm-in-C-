@@ -1,5 +1,8 @@
 Grading p1 (worth 100 points)
 -------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
 The output you got does not match what was expected:
 ==
 Yes, we did this!
