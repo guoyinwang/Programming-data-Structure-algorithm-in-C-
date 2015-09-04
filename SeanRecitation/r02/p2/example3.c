@@ -2,5 +2,8 @@
 #include <stdlib.h>
 
 int main(int argc, char** argv){
-  printf("Hello World\n");
+  int x = 5;
+  if (x=5) {
+    printf("X is five\n");
+  }
 }
