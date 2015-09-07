@@ -3,7 +3,36 @@
 
 
 void printFactors(int n) {
-  
+  if (n<=1){
+    printf("\n");
+    return;
+  }
+  else if(n==2){
+    printf("2\n");
+    return;
+  }
+  else if (n==3){
+    printf("3\n");
+    return;
+  }
+  else{
+    int i =2;
+    int t = 1;
+    while(t){
+      if (i==n){
+	printf("%d\n",i);
+	t=0;
+      }
+      else if(n%i==0){
+	printf("%d*",i);
+	printFactors(n/i);
+	t=0;
+      }
+      i++;
+      
+    }
+    return;
+  }
 }
 
 int main(void) {
