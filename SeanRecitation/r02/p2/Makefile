@@ -1,0 +1,10 @@
+CCFlag = -std=gnu99 -Wall -Werror -pedantic
+all: example1 example2 example3 
+example1: example1.c
+	gcc -o example1 $(CCFlag) example1.c
+example2: example2.c
+	gcc -o example2 $(CCFlag) example2.c
+example3: example3.c
+	gcc -o example3 $(CCFlag) example3.c
+clean:
+	rm example1 example2 example3 
