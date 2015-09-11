@@ -1,0 +1,15 @@
+This problem taken from All of Programming: Exercise 8.9)
+
+p, q, and r are all of type int *
+p, q = NULL
+r points to a valid memory location with an int.
+
+Which of the following lines of code will cause a segfault?
+
+1) p = q;
+2) *p = 3;
+3) *r = *q;
+4) r = q;
+5) p = r;
+
+
