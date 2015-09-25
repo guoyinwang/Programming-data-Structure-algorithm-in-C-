@@ -2,6 +2,23 @@
 #include <stdlib.h>
 
 int maxSeq(int * array, int n) {
+  if (n==0){
+    return 0;
+  }
+  for(int len = n;len>=1;len--){
+    for(int step =0;step<=n-1;step++){
+      int label = 1;
+      for (int loop=0;loop<=len-2;loop++){
+	if(array[step+loop]>=array[step +loop+1]){
+	  label=-1;
+	}
+      }
+      if (label == 1){
+	return len;
+      }
+    }
+  }
+
   return 0;
 }
 

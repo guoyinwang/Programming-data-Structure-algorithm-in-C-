@@ -1,0 +1,6 @@
+test.c
+
+test: test.c
+	gcc -std=c++99 -o test test.c
+clean:
+	rm test

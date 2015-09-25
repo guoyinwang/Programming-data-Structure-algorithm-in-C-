@@ -1,0 +1,4 @@
+In f *a =3, b =4
+In g x=7, *t = 8
+back in f, *a = 7, b =0
+In main x=7, y=4

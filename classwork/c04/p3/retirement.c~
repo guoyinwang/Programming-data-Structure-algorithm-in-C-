@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+ void retirement (int startAge,   //in months
+                       double initial, //initial savings in dollars
+                       retire_info working, //info about working
+                       retire_info retired) //info about being retired
+ {
+
+
+ }

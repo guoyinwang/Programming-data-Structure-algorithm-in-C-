@@ -4,6 +4,14 @@
 
 void reverse(char * str) {
   //WRITE ME!
+  int n = strlen(str);
+  for(int i=0;i<n/2;i++){
+    char tmp =str[i];
+    str[i]=str[n-1-i];
+    str[n-1-i]=tmp;
+
+
+  }
 }
 
 int main(void) {
@@ -16,6 +24,7 @@ int main(void) {
   char str6[] = "Executor Selendis! Unleash the full power of your forces! There may be no tomorrow!";
   char * array[] = {str0, str1, str2, str3, str4, str5, str6};
   for (int i = 0; i < 7; i++) {
+    //printf("%s\n",array[i]);
     reverse(array[i]);
     printf("%s\n", array[i]);
   }

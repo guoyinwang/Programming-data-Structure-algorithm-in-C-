@@ -6,6 +6,7 @@ int f(int n) {
   p[0] = n;
   p[1] = n+2;
   int ans = p[0] * p[1];
+  free(p);
   return ans;
 }
 
@@ -15,8 +16,12 @@ int main(void) {
   int ** r = &q;
   p[0] = f(1);
   *r = NULL;
+  //printf("%d\n",p[0]);
+
   q = malloc(2 * sizeof(*q));
+  free(p);
   p = q;
   q = NULL;
+  free(p);
   return EXIT_SUCCESS;
 }

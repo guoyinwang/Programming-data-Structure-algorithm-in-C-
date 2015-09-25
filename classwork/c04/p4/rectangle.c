@@ -1,5 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+struct rectangle{
+  int x;
+  int y;
+  int width;
+  int height;
+};
+typedef struct rectangle rectangle;
+
+
 //I've provided "min" and "max" functions in
 //case they are useful to you
 int min (int a, int b) {
@@ -20,6 +29,14 @@ int max (int a, int b) {
 
 rectangle canonicalize(rectangle r) {
   //WRITE THIS FUNCTION
+  if (r.width<0){
+    r.x += r.width;
+    r.width = -r.width;
+  }
+  if(r.height<0){
+    r.y +=r.height;
+    r.height = -r.height;
+  }
   return r;
 }
 rectangle intersection(rectangle r1, rectangle r2) {
