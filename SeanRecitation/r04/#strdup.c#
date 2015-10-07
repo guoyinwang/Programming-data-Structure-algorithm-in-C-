@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+char * myStrDup(const char * str){
+  if(str==NULL){
+    return NULL;
+
+  }
+  int count =0;
+  while(str[count] !='\0'){
+    count++;
+  }
+  char * ptr = malloc(count * sizeof(*ptr));
+  for(int i=0;i<count;i++){
+    ptr[i] = str[i];
+  }
+  return ptr;
+}
