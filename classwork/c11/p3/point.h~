@@ -1,0 +1,17 @@
+#ifndef _POINT_H_
+#define _POINT_H_
+
+class point{
+ private:
+  double x;
+  double y;
+ public:
+  point();
+  void move(double dx, double dy);
+  double distanceFrom(const Point & p);
+
+
+}
+
+
+#endif

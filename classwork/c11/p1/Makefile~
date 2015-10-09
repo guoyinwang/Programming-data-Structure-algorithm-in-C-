@@ -1,0 +1,4 @@
+code:code.cpp
+	gcc  -Werror -Wall -o code code.cpp
+clean:
+	rm code 

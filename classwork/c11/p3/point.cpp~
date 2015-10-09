@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "point.h"
+
+point::point() : x(0.0) y(0.0) {}
+point::move(double dx, double dy){
+  x+=dx;
+  y+=dy;
+} 

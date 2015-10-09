@@ -1,0 +1,4 @@
+code:code.cpp
+	g++ -Wall-Werror-gdb3 -o code code.cpp
+clean:
+	rm code
